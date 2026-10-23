@@ -1,0 +1,21 @@
+# Reverse-engineered vendor binary (keep locally only)
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated output (regenerable from Zscan7/Reports with the converter)
+out/
+*.pdf
+
+# Zscan runtime data: large binary corpus + patient data (FDB, photos, videos).
+# Never commit patient data. Keep the .ZSC corpus only as a local validation set.
+Zscan7/
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
